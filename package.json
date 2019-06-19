@@ -6,14 +6,17 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit --coverage",
+    "storybook": "start-storybook --port 8081 --ci -c .storybook/",
     "test:debug": "node --inspect-brk node_modules/.bin/vue-cli-service test:unit --no-cache --watch --runInBand",
-    "storybook": "start-storybook --port 8081 --ci -c .storybook/"
+    "test:unit": "vue-cli-service test:unit --coverage"
   },
   "dependencies": {
+    "@mdi/font": "^2.6.95",
     "axios": "0.18.0",
     "core-js": "2.6.9",
+    "material-design-icons-iconfont": "^3.0.3",
     "moment": "2.24.0",
+    "roboto-fontface": "*",
     "v-money": "0.7",
     "vue": "2.6.10",
     "vue-infinite-loading": "2.4.4",
@@ -23,11 +26,12 @@
     "vue-router": "3.0.6",
     "vue-shortkey": "3.1.7",
     "vue-the-mask": "0.11.1",
+    "vuetify": "^1.5.5",
     "vuex": "3.1.1"
   },
   "devDependencies": {
-    "@storybook/vue": "5.0.11",
     "@storybook/addon-actions": "5.0.11",
+    "@storybook/vue": "5.0.11",
     "@vue/cli-plugin-babel": "3.7.0",
     "@vue/cli-plugin-eslint": "3.7.0",
     "@vue/cli-plugin-unit-jest": "3.7.0",
@@ -43,6 +47,10 @@
     "eslint-plugin-vue": "5.0.0",
     "node-sass": "4.12.0",
     "sass-loader": "7.1.0",
-    "vue-template-compiler": "2.6.10"
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "2.6.10",
+    "vuetify-loader": "^1.0.5"
   }
 }
