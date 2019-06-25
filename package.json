@@ -11,7 +11,7 @@
     "test:unit": "vue-cli-service test:unit --coverage"
   },
   "dependencies": {
-    "@mdi/font": "2.6.95",
+    "@mdi/font": "2.8.94",
     "axios": "0.18.0",
     "core-js": "2.6.9",
     "material-design-icons-iconfont": "3.0.3",
@@ -26,7 +26,7 @@
     "vue-router": "3.0.6",
     "vue-shortkey": "3.1.7",
     "vue-the-mask": "0.11.1",
-    "vuetify": "1.5.5",
+    "vuetify": "1.5.14",
     "vuex": "3.1.1"
   },
   "devDependencies": {
@@ -48,9 +48,9 @@
     "node-sass": "4.12.0",
     "sass-loader": "7.1.0",
     "stylus": "0.54.5",
-    "stylus-loader": "3.0.1",
+    "stylus-loader": "3.0.2",
     "vue-cli-plugin-vuetify": "0.5.0",
     "vue-template-compiler": "2.6.10",
-    "vuetify-loader": "1.0.5"
+    "vuetify-loader": "1.2.2"
   }
 }
